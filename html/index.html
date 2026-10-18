@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Define la codificación del documento para que se muestren bien los caracteres -->
+    <meta charset="UTF-8" />
+    <!-- Hace que la página se adapte bien a teléfonos y tablets -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Carga la base visual de Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Carga el estilo personalizado para imitar la referencia -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <!-- Título que aparece en la pestaña del navegador -->
+    <title>LingoFIT</title>
+  </head>
+  <body>
+    <!-- Encabezado principal de la página -->
+    <header>
+      <!-- Barra de navegación -->
+      <nav>
+        <!-- Logo y nombre de la marca -->
+        <div class="brand">
+          <div class="brand-icon">
+            <span>•••</span>
+          </div>
+          <span>Aprenda Idiomas</span>
+        </div>
+
+        <!-- Menú de navegación con links de la página -->
+
+        <ul>
+          <li>Inicio</li>
+          <li>Cómo funciona</li>
+          <li>Características</li>
+          <li>Precios</li>
+          <li>Blog</li>
+        </ul>
+
+        <!-- Botones de acceso a la cuenta y llamada a la acción -->
+        <div class="actions">
+          <button>Iniciar sesión</button>
+          <button class="primary">Comenzar gratis</button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Contenido principal de la página -->
+    <main>
+      <!-- Sección principal llamada hero -->
+      <section class="hero">
+        <div class="hero-copy">
+          <!-- Texto pequeño encima del título -->
+          <p class="mini-label">Habla más. Entiende mejor. Vive el idioma.</p>
+          <!-- Título principal de la landing page -->
+          <h1>Tu entrenador lingüístico personal con IA</h1>
+          <p class="subtitle">
+            Escucha cómo hablas, aprende tus patrones y te entrena para situaciones
+            reales de la vida.
+          </p>
+
+          <!-- Lista de beneficios rápidos que aparecen debajo del texto -->
+          <div class="features-inline">
+            <div>
+              <span>◔</span>
+              <p>Escucha</p>
+            </div>
+            <div>
+              <span>◌</span>
+              <p>Detección</p>
+            </div>
+            <div>
+              <span>✦</span>
+              <p>Perfecciona</p>
+            </div>
+            <div>
+              <span>◍</span>
+              <p>Práctica</p>
+            </div>
+            <div>
+              <span>◎</span>
+              <p>Seguimiento</p>
+            </div>
+          </div>
+
+          <!-- Botones principales de la llamada a la acción -->
+          <div class="cta-row">
+            <button class="primary large">Comenzar gratis</button>
+            <button class="secondary">Ver cómo funciona</button>
+          </div>
+
+          <!-- Prueba social para mostrar que otras personas ya usan la app -->
+          <div class="social-proof">
+            <div class="avatars">
+              <span class="avatar a1">A</span>
+              <span class="avatar a2">B</span>
+              <span class="avatar a3">C</span>
+              <span class="avatar a4">D</span>
+            </div>
+            <p>Más de 50.000 personas ya están mejorando su inglés.</p>
+          </div>
+        </div>
+
+        <!-- Contenedor visual del lado derecho con el mockup del celular -->
+        <div class="hero-visual">
+          <div class="phone-shell">
+            <div class="phone-notch"></div>
+            <div class="phone-screen">
+              <div class="screen-header">
+                <span>9:41</span>
+                <span>◉</span>
+              </div>
+
+              <!-- Tarjeta principal del perfil dentro del móvil -->
+              <div class="user-card">
+                <p>¡Hola, Anal!</p>
+                <p>Listo para practicar?</p>
+                <div class="score-box">
+                  <span>Reel-Life Score</span>
+                  <strong>78 / 100</strong>
+                </div>
+                <!-- SVG representa un gráfico de progreso visual -->
+                <svg viewBox="0 0 220 80" aria-label="Gráfico de progreso">
+                  <path d="M0,70 C30,75 40,60 60,48 S105,20 130,35 S175,25 220,10" fill="none" stroke="#2eba78" stroke-width="3" stroke-linecap="round"/>
+                </svg>
+              </div>
+
+              <!-- Lista de habilidades con porcentajes -->
+              <div class="abilities">
+                <div>
+                  <span>◉</span>
+                  <span>Conversación</span>
+                  <strong>74%</strong>
+                </div>
+                <div>
+                  <span>◉</span>
+                  <span>Comprensión</span>
+                  <strong>68%</strong>
+                </div>
+                <div>
+                  <span>◉</span>
+                  <span>Pronunciación</span>
+                  <strong>82%</strong>
+                </div>
+                <div>
+                  <span>◉</span>
+                  <span>Vocabulario</span>
+                  <strong>71%</strong>
+                </div>
+                <div>
+                  <span>◉</span>
+                  <span>Gramática</span>
+                  <strong>78%</strong>
+                </div>
+                <div>
+                  <span>◉</span>
+                  <span>Respuesta rápida</span>
+                  <strong>54%</strong>
+                </div>
+                <div>
+                  <span>◉</span>
+                  <span>Improvización</span>
+                  <strong>61%</strong>
+                </div>
+              </div>
+
+              <!-- Menú inferior del celular -->
+              <div class="phone-actions">
+                <span>Inicio</span>
+                <span>Entrenar</span>
+                <span>Historia</span>
+                <span>Perfil</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tarjetas flotantes que decoran el mockup -->
+          <div class="floating-card card-1">
+            <div class="mini-card-header">
+              <span class="tag">Práctica</span>
+            </div>
+            <h4>Entrenamiento</h4>
+            <p>Simulación</p>
+            <div class="mini-illustration"></div>
+          </div>
+
+          <div class="floating-card card-2">
+            <div class="mini-card-header">
+              <span class="tag">Desafío</span>
+            </div>
+            <h4>Desafío del día</h4>
+            <p>Ve a la entrevista con tu entrenador</p>
+            <button>Aceptar reto</button>
+          </div>
+
+          <div class="floating-card card-3">
+            <div class="mini-card-header">
+              <span class="tag">Entrenamiento</span>
+            </div>
+            <h4>Entrevista</h4>
+            <p>Simulación</p>
+            <div class="mini-illustration illustration-two"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección que explica el proceso paso a paso -->
+      <section class="how-it-works">
+        <h2>Cómo funciona</h2>
+        <div class="steps-grid">
+          <div class="step">
+            <div class="step-number">1</div>
+            <div class="step-icon">◔</div>
+            <h3>Escucha</h3>
+            <p>Hablas en cada conversación.</p>
+          </div>
+
+          <div class="step">
+            <div class="step-number">2</div>
+            <div class="step-icon">◌</div>
+            <h3>Aprende</h3>
+            <p>Tu patrón y tus errores.</p>
+          </div>
+
+          <div class="step">
+            <div class="step-number">3</div>
+            <div class="step-icon">✦</div>
+            <h3>Detecta</h3>
+            <p>Tu debilidad y progreso.</p>
+          </div>
+
+          <div class="step">
+            <div class="step-number">4</div>
+            <div class="step-icon">◎</div>
+            <h3>Guarda</h3>
+            <p>Tu entorno y tus sesiones.</p>
+          </div>
+
+          <div class="step">
+            <div class="step-number">5</div>
+            <div class="step-icon">◍</div>
+            <h3>Decide</h3>
+            <p>Qué debes practicar hoy.</p>
+          </div>
+
+          <div class="step">
+            <div class="step-number">6</div>
+            <div class="step-icon">◐</div>
+            <h3>Sitúa</h3>
+            <p>Tu conversación en el mundo real.</p>
+          </div>
+
+          <div class="step">
+            <div class="step-number">7</div>
+            <div class="step-icon">◒</div>
+            <h3>Mi</h3>
+            <p>Mejora con retroalimentación.</p>
+          </div>
+
+          <div class="step">
+            <div class="step-number">8</div>
+            <div class="step-icon">◉</div>
+            <h3>A la vida real</h3>
+            <p>Te manda a aplicar lo aprendido.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección de beneficios principales del producto -->
+      <section class="benefits">
+        <h2>Todo lo que necesitas para mejorar tu inglés</h2>
+
+        <div class="benefits-grid">
+          <article class="benefit-card">
+            <div class="benefit-icon">💬</div>
+            <h3>Conversaciones con IA</h3>
+            <p>Habla con IA sobre temas reales y cotidianos.</p>
+          </article>
+
+          <article class="benefit-card">
+            <div class="benefit-icon">🎧</div>
+            <h3>Simulaciones</h3>
+            <p>Practica con escenarios reales y situaciones diarias.</p>
+          </article>
+
+          <article class="benefit-card">
+            <div class="benefit-icon">📊</div>
+            <h3>Análisis de voz</h3>
+            <p>Evalúa tu pronunciación, ritmo y claridad.</p>
+          </article>
+
+          <article class="benefit-card">
+            <div class="benefit-icon">🧠</div>
+            <h3>Entrenamiento de errores</h3>
+            <p>Recibe correcciones inteligentes para mejorar.</p>
+          </article>
+
+          <article class="benefit-card">
+            <div class="benefit-icon">⚡</div>
+            <h3>Desafíos de vida real</h3>
+            <p>Mejora con retos diseñados para tu día a día.</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Sección de precios y testimonios -->
+      <section class="pricing-and-proof">
+        <div class="pricing-section">
+          <h2>Elige tu plan</h2>
+
+          <div class="pricing-cards">
+            <article class="plan free-plan">
+              <h3>Gratis</h3>
+              <div class="price">$0<span>/mes</span></div>
+              <ul>
+                <li>Evaluación inicial</li>
+                <li>Algunas conversaciones</li>
+                <li>Vocabulario básico</li>
+                <li>1 simulación diaria</li>
+                <li>Perfil básico</li>
+              </ul>
+              <button>Probar gratis</button>
+            </article>
+
+            <article class="plan premium-plan">
+              <h3>Premium</h3>
+              <div class="price">$12.99<span>/mes</span></div>
+              <ul>
+                <li>Conversaciones ilimitadas</li>
+                <li>Simulaciones extendidas</li>
+                <li>Entrenamiento de errores</li>
+                <li>Desafíos personalizados</li>
+                <li>Seguimiento avanzado</li>
+                <li>Expansión de vocabulario</li>
+              </ul>
+              <button>Prueba Premium</button>
+            </article>
+          </div>
+        </div>
+
+        <div class="testimonial-section">
+          <div class="testimonial-quote">
+            <p>
+              “Gracias a la app, tengo más confianza para hablar inglés en reuniones y
+              en mi trabajo diario.”
+            </p>
+            <div class="person">
+              <span class="avatar small">M</span>
+              <span>Maria G.</span>
+            </div>
+          </div>
+
+          <div class="testimonial-quote">
+            <p>
+              “Las simulaciones son increíbles. Me ayudaron a mejorar mi pronunciación y
+              fluidez en pocas semanas.”
+            </p>
+            <div class="person">
+              <span class="avatar small">J</span>
+              <span>Jorge S.</span>
+            </div>
+          </div>
+
+          <div class="testimonial-quote">
+            <p>
+              “Por fin entiendo mis errores y puedo practicar en situaciones reales sin
+              estrés.”
+            </p>
+            <div class="person">
+              <span class="avatar small">A</span>
+              <span>Andrea R.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Banner final con llamada a la acción para que el usuario empiece -->
+      <section class="cta-banner">
+        <div class="cta-copy">
+          <h2>Habla hoy. Transforma tu futuro.</h2>
+          <p>
+            Miles de personas están mejorando su inglés con nuestra plataforma y
+            entrenando de la forma más natural.
+          </p>
+        </div>
+
+        <div class="cta-actions">
+          <button class="primary large">Comenzar gratis ahora</button>
+          <div class="stores">
+            <span>Google Play</span>
+            <span>App Store</span>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
